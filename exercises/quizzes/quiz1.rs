@@ -12,6 +12,14 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+fn calculate_price_of_apples(q: i32) -> i32 {
+    if q > 40 {
+        q // Each apple costs 1 rustbuck
+    } else {
+        q * 2 // Each apple costs 2 rustbucks
+    }
+}
+
 fn main() {
     // You can optionally experiment here.
 }
